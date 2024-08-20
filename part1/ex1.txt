@@ -1,4 +1,4 @@
-PS C:\Users\Potsu> docker ps -a
+> docker ps -a
 CONTAINER ID   IMAGE         COMMAND                  CREATED              STATUS                       PORTS     NAMES
 5471c8828874   nginx         "/docker-entrypoint.…"   About a minute ago   Exited (0) 17 seconds ago              funny_feynman
 55821f51334a   nginx         "/docker-entrypoint.…"   About a minute ago   Exited (0) 1 second ago                lucid_robinson
