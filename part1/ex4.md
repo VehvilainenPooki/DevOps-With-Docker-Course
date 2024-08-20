@@ -4,6 +4,10 @@ First I run the main command in cmd:
 ```
 (This command does not work in PowerShell and wasted so many hours of my life)
 
+For PowerShell to work, you'll need to escape the $ character with this quote ` not this ':
+``` PowerShell
+> docker run -it --rm --name webuntu ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://`$website; done"
+```
 _____________
 
 Next I install curl in another window:
