@@ -1,5 +1,5 @@
-PS C:\Users\Potsu> docker ps -a
+> docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-PS C:\Users\Potsu> docker image ls
+> docker image ls
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
 PS C:\Users\Potsu>
