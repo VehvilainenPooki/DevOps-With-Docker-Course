@@ -1,0 +1,11 @@
+services:
+  example-frontend:
+    build:
+      context: ./material-applications/example-frontend
+    ports:
+      - "5000:5000"
+  example-backend:
+    build:
+      context: ./material-applications/example-backend
+    ports:
+      - "8080:8080"
